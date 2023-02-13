@@ -1,4 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* <!-- Menu --> */
+
+/* ------------- MENU TOP ------------- */
+
+
+.menuTop{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.menuTop a{
+    text-decoration: none;
+    color: #000;
+}
+
+.menu{
+    font-size: small;
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    font-size: 105%;
+}
+
+.menu a:hover{
+    text-decoration: none !important;
+    color: black;
+}
+
+#logo img{
+    width: 95%;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .menuTop {
+      display: none;
+    }
+    
+  }
+
+
+/*------------- Menu Bottom -------------*/
+.menuTop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+ }
+ 
+ .menu2 {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+ }
+.navbar{
+    /* position: fixed; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+}
+
+.topnav div{
+    display: flex;
+    justify-content: center;
+}
+
+.icones{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 12em;
+}
+
+.icones i{
+    font-size: 1.5em;
+}
+
+.menuTopRight{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5em;
+}
+
+.menuTopRight a{
+    font-size: 12px;
+}
+
+.fa-square-twitter {
+    color: rgb(29 161 242);
+}
+
+.fa-instagram {
+    background: linear-gradient(to bottom, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, 
+    #FCAF45, #FFDC80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-youtube-play {
+    color: red;
+}
+
+.fa-meetup {
+    color: orange;
+}
+
+.fa-circle-info {
+    color: rgb(189, 37, 37);
+}
+
+.fa-4,
+.fa-0 {
+    color: rgb(223, 52, 52);
+}
+
+@media screen and (max-width: 991px) {
+    .menu2{
+        top: 0px;
+    }
+  }
+
 
 /* <!-- /Menu --> */
 
