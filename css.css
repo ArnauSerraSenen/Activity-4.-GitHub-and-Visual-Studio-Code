@@ -20,6 +20,9 @@ img{
 .banner-divs{
     z-index: 99;
 }
+#contenedor-divs{
+    height: 70vh;
+}
 .single-cat{
     padding: 6%;
     background-color: #FFFFFFcc;
@@ -53,6 +56,24 @@ img{
     object-fit:cover;
     height: 80vh;
 }
+@media (max-width: 767px) {
+    #contenedor-divs{
+        margin-top: 3em;
+        height: 90vh;
+    }
+
+    .banner-end-position{
+        height: 100vh;
+    }
+    .banner-img{
+        object-fit:cover;
+        height: 100vh;
+    }
+  }
+
+
+
+
 /* <!-- /Banner --> */
 
 /* <!-- News --> */
