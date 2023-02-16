@@ -30,7 +30,7 @@ img{
     text-align: center;
     overflow:scroll;
     overflow-x: hidden;
-    scrollbar-color: #00f #00f;}
+    scrollbar-color: #d42e12 #fff;}
 .single-cat p{
     text-align:justify;
 }
@@ -41,13 +41,13 @@ img{
 }
 
 .single-cat::-webkit-scrollbar-thumb {
-  background-color: #f00;
+  background-color: #d42e12;
 }
 .single-cat h3 a{
     text-decoration: none;
 }
 .single-cat a{
-    color: red;
+    color: #d42e12;
 }
 .banner-end-position{
     height: 80vh;
@@ -81,6 +81,48 @@ img{
 /* <!-- /News --> */
 
 /* <!-- Formative offer --> */
+.formative_offer{
+    margin-top: 2em;
+}
+.formative_offer h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.formative_offer_type{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.formative_offer_type div{
+    width: 9em;
+    height: 9em;
+    border-radius: 100%;
+    background-color: #d42e12;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formative_offer_type div:hover{
+    background-color: #000;
+    
+}
+.formative_offer_type a{
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.formative_offer_type a:hover{
+    color: #d42e12;
+    scale: 2;
+}
+.dual_image{
+    width: 9em;
+    height: 9em;
+}
 
 /* <!-- /Formative offer --> */
 
