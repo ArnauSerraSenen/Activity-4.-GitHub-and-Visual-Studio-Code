@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: #f7f7f7;  
+}
+
 /* <!-- Menu --> */
 
 /* ------------- MENU TOP ------------- */
@@ -73,6 +77,7 @@
     left: 0;
     width: 100%;
     z-index: 1;
+    
  }
 .navbar{
     /* position: fixed; */
@@ -143,7 +148,7 @@
 }
 
 .dropdown-menu a:hover {
-    color: #FD1D1D;
+    color: rgb(212, 46, 18);
     background-color: transparent;
 }
 
@@ -163,7 +168,9 @@
 /* <!-- News --> */
 
 .news{
-    margin-top: 120px;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
 }
 
 .news a{
@@ -174,6 +181,7 @@
 .card{
     margin-top: 2em;
     border: 0px ;
+    background-color: #f7f7f7;  
 }
 .card h5{
     font-weight: bold;
@@ -203,6 +211,48 @@
 
 /* <!-- Secretary --> */
 
+.secretary{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+.secretary h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.secretaryTop{
+    margin-top: 2em;
+}
+.secretarySections h5{
+    font-weight: bold;
+}
+
+.secretarySections p{
+    margin-top: -1em;
+}
+
+.secretarySections a{
+    text-decoration: none;
+    color: rgb(212, 46, 18);
+}
+
+.secretarySections a:hover{
+    font-weight: bold
+}
+
+.secretaryIcons{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(212, 46, 18);
+    padding: 0.5em;
+    border-radius: 100%;
+    transform: scale(0.8);
+    width: 1.5em;
+    height: 1.5em;
+}
 
 
 /* <!-- Secretary --> */
