@@ -9,6 +9,10 @@ body{
     background-color: #f7f7f7;  
 }
 
+
+img{
+    width: 100%;
+}
 /* <!-- Menu --> */
 
 /* ------------- MENU TOP ------------- */
@@ -162,6 +166,67 @@ body{
 /* <!-- /Menu --> */
 
 /* <!-- Banner --> */
+#carouselExampleFade{
+    position:absolute;
+    width: 100%;
+    z-index: 1;
+}
+.banner-divs{
+    z-index: 99;
+}
+#contenedor-divs{
+    height: 70vh;
+}
+.single-cat{
+    padding: 6%;
+    background-color: #FFFFFFcc;
+    height: 200px;
+    text-align: center;
+    overflow:scroll;
+    overflow-x: hidden;
+    scrollbar-color: #d42e12 #fff;}
+.single-cat p{
+    text-align:justify;
+}
+
+.single-cat::-webkit-scrollbar {
+    width: 7px;
+    background-color: #F5F5F5;
+}
+
+.single-cat::-webkit-scrollbar-thumb {
+  background-color: #d42e12;
+}
+.single-cat h3 a{
+    text-decoration: none;
+}
+.single-cat a{
+    color: #d42e12;
+}
+.banner-end-position{
+    height: 80vh;
+}
+.banner-img{
+    object-fit:cover;
+    height: 80vh;
+}
+@media (max-width: 767px) {
+    #contenedor-divs{
+        margin-top: 3em;
+        height: 90vh;
+    }
+
+    .banner-end-position{
+        height: 100vh;
+    }
+    .banner-img{
+        object-fit:cover;
+        height: 100vh;
+    }
+  }
+
+
+
 
 /* <!-- /Banner --> */
 
@@ -206,6 +271,48 @@ body{
 /* <!-- /News --> */
 
 /* <!-- Formative offer --> */
+.formative_offer{
+    margin-top: 2em;
+}
+.formative_offer h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.formative_offer_type{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.formative_offer_type div{
+    width: 9em;
+    height: 9em;
+    border-radius: 100%;
+    background-color: #d42e12;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formative_offer_type div:hover{
+    background-color: #000;
+    
+}
+.formative_offer_type a{
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.formative_offer_type a:hover{
+    color: #d42e12;
+    scale: 2;
+}
+.dual_image{
+    width: 9em;
+    height: 9em;
+}
 
 /* <!-- /Formative offer --> */
 
@@ -258,5 +365,31 @@ body{
 /* <!-- Secretary --> */
 
 /* <!-- Final --> */
+.final{
+    background-image: url("img-Arnau/fons-dividit.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+}
+.divicio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.linia-final{
+    display: flex;
+    justify-content: center;
+}
+.position-squere{
+    width: 40%;
+    padding: 5%;
+    display: flex;
+}
+.position-squere:hover{
+    scale: 1.1;
+    color: #d42e12;
+}
 
 /* <!-- /Final --> */
